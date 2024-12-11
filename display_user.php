@@ -58,3 +58,10 @@ if (!isset($_SESSION['user'])) {
     // Close the database connection
     $conn->close();
     ?>
+    
+<a href="welcome.php">
+    <button type="button" class="back-button">Back</button>
+</a>
+
+</body>
+</html>

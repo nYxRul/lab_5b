@@ -12,10 +12,14 @@ if (!isset($_SESSION['user'])) {
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h2>Welcome, <?php echo htmlspecialchars($_SESSION['user']); ?>!</h2>
-        <p>You have successfully logged in.</p>
-        <a href="logout.php">Logout</a>
-    </div>
+<br>
+<br>
+<div class="container">
+    <h2>Welcome, <?php echo htmlspecialchars($_SESSION['user']); ?>!</h2>
+    <p>You have successfully logged in.</p>
+    <a href="display_user.php" class="display-button">Display User</a> 
+    <a href="logout.php" class="logout-button">Logout</a>
+</div>
 </body>
 </html>
+

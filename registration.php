@@ -24,7 +24,9 @@
             <option value="student">Student</option>
         </select><br>
         
-        <button type="submit">Submit</button>
+        <button type="submit">Submit</button><br><br>
+        <a href="login.php"><button type="button" class="login-button">Log in</button></a>
+
     </form>
 </body>
 </html>
